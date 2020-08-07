@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:turquoise;">
+
+<head>
+	<h1 style="font-family:garamond;">Alicia escribe en español</h1>
+	<h2 style="text-align:center;">¡Bienvenidos!</h2>
+</head>
+
+<div class="topnav">'
+  <button onclick="document.location='Blog.htm'">Página Principal</button>
+  <button onclick="document.location='BlogPosts.htm'">Blog</button>
+  <button onclick="document.location='BlogCuentos.htm'">Cuentos</button>
+  <button onclick="document.location='BlogPoemas.htm'">Poemas</button>
+	</div>
+
+<hr>
+<p2 style="font-family:ariel;">¡Que disfrutes de mi trabajo!</p2>
+
+<hr>
+
+<h3 style="font-family:garamond;">Sobre mí</h3>
+<p3 style="color:purple;">¡Hola! Gracias por visitar mi blog. Soy Alicia y estudio en una escuela secundaria en los Estados Unidos. Me encanta aprender sobre la gente del mundo. Mi meta actual es aprender escribir y hablar español con fluidez para que el idioma no sea limitante. Además, me interesa usar HTML para crear mi propio sitio web. Aparte de este blog, mis pasatiempos incluyen montar en bicicleta y leer. </p3>
+
+<hr>
+
+<footer>
+	<p4 style="font-family:garamond;">Alicia escribe en español - Actualizado 5 Aug 2020</p4>
+	</footer>
+</body>
+</html>
