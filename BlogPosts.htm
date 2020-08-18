@@ -2,8 +2,8 @@
 <html>
 <body>
 <head> 
-  <link rel="stylesheet" type="text/css" href="format.css">
-  <link rel="stylesheet" type="text/css" href="font.css">
+  <link rel="stylesheet" type="text/css" href="formatNav.css">
+
 </head>
 
  <ul>
@@ -12,37 +12,31 @@
   <li><a href="BlogPosts.htm">Blog</a></li>
   <li><a href="BlogCuentos.htm">Cuentos</a></li>
   <li><a href="BlogPoemas.htm">Poemas</a></li>
-  <link rel="stylesheet" type="text/css" href="formatNav.css">
- 
  </ul>
 
-<p2>¡Que disfrutes de mi trabajo!</p2>
-
 <hr>
+
+<p2>¡Que disfrutes de mi trabajo!</p2>
 
 <p3>¡Haz clic para ver mi escritura!</p3>
 
 
 <p id="currentPost">Escritura</p>
 
-<h id="latestPost">Último Post</h>
-<button1 onclick="getLatestText();">16 de Agosto</button1>
-<link rel="stylesheet" type="text/css" href="formatButton.css">
-
-<script>
-function getLatestText(){
-document.getElementById("currentPost").innerHTML= "16 Agosto 2020 ¡Hoy aprendí hacer un post en el blog con una caja de texto! Fue un día soleado con temperaturas altas. Por eso, me quedé en casa por la mayor parte del día. Hice mucho té verde con hielo. Aunque debo estudiar las matemáticas o algo con relación a los estudios escolares, decidí pasar el día viendo YouTube y escribiendo un post. :)";
-}
-</script>
+<h1 id="latestPost">Último Post</h1>
+<button3 onclick="get18Aug2020();">18 de Agosto</button3>
 
 
-<hr>
-<h4>Más contenido:</h4>
-
+<h1 id="moreContent">Más contenido:</h1>
+<button2 onclick="get17Aug2020();">17 de Agosto</button2>
+<button1 onclick="get16Aug2020();">16 de Agosto</button1>
 <hr>
 
 <footer>
-	<p id="footer">Alicia escribe en español - Actualizado 16 Aug 2020</p>
-        <link rel="stylesheet" type="text/css" href="formatFoot.css">
+	<p id="footer">Alicia escribe en español - Actualizado 18 Aug 2020</p>
+</footer>
+
+<script src="postFunctions.js"></script>
+
 </body>
 </html>

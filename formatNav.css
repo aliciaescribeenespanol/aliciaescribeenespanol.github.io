@@ -1,4 +1,30 @@
+body{
+ background:url("peru.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100%;
+}
 
+body {
+ margin: 0 auto; 
+ font-size: 1.5em; 
+ line-height: 2.0em;
+ font-family: 'Courier', monospace; 
+ color: white; 
+ font-weight: 300;
+}
+
+
+#currentPost{ 
+   max-width:75%;
+   position: absolute;
+   right: 75px;
+} 
+
+#lastestPost{
+  position: absolute;
+  left:5px;
+}
 ul {
   list-style-type: none;
   background-color: black;
@@ -24,5 +50,39 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+
+button1 {
+  transition-duration: 0.4s;
+}
+
+button1:hover {
+  background-color: turquoise; 
+  color: white;
+}
+
+button2 {
+  transition-duration: 0.4s;
+}
+
+button2:hover {
+  background-color: blue; 
+  color: white;
+}
+
+button3 {
+  transition-duration: 0.4s;
+}
+
+button3:hover {
+  background-color: purple; 
+  color: white;
+}
+
+footer {
+position: fixed;
+left:0;
+bottom:0;
+width: 100%;
 }
 
