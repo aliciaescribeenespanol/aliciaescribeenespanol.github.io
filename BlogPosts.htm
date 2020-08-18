@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-
 <head> 
   <link rel="stylesheet" type="text/css" href="format.css">
   <link rel="stylesheet" type="text/css" href="font.css">
@@ -14,15 +13,28 @@
   <li><a href="BlogCuentos.htm">Cuentos</a></li>
   <li><a href="BlogPoemas.htm">Poemas</a></li>
   <link rel="stylesheet" type="text/css" href="formatNav.css">
+ 
  </ul>
 
-<p2 style="font-family:ariel;">¡Que disfrutes de mi trabajo!</p2>
+<p2>¡Que disfrutes de mi trabajo!</p2>
 
 <hr>
 
 <p3>¡Haz clic para ver mi escritura!</p3>
-<h3>Último Post</h3>
-<button on click="document.location='LOCATION'">6 de Agosto</button>
+
+
+<p id="currentPost">Escritura</p>
+
+<h id="latestPost">Último Post</h>
+<button1 onclick="getLatestText();">16 de Agosto</button1>
+<link rel="stylesheet" type="text/css" href="formatButton.css">
+
+<script>
+function getLatestText(){
+document.getElementById("currentPost").innerHTML= "16 Agosto 2020 ¡Hoy aprendí hacer un post en el blog con una caja de texto! Fue un día soleado con temperaturas altas. Por eso, me quedé en casa por la mayor parte del día. Hice mucho té verde con hielo. Aunque debo estudiar las matemáticas o algo con relación a los estudios escolares, decidí pasar el día viendo YouTube y escribiendo un post. :)";
+}
+</script>
+
 
 <hr>
 <h4>Más contenido:</h4>
@@ -30,7 +42,7 @@
 <hr>
 
 <footer>
-	<p4>Alicia escribe en español - Actualizado 16 Aug 2020</p4>
+	<p id="footer">Alicia escribe en español - Actualizado 16 Aug 2020</p>
         <link rel="stylesheet" type="text/css" href="formatFoot.css">
 </body>
 </html>

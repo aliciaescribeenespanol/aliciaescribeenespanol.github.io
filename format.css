@@ -4,3 +4,16 @@ body{
  background-size: cover;
 }
 
+
+#currentPost{ 
+   max-width:50%;
+   position: absolute;
+   right: 50px;
+
+} 
+
+#lastestPost{
+  position: absolute;
+  left:5px;
+
+}
