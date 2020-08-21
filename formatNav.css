@@ -53,6 +53,11 @@ li a:hover {
   background-color: #111;
 }
 
+h1 {
+font-size: 100%;
+}
+
+
 button1 {
   transition-duration: 0.4s;
 }
@@ -77,6 +82,15 @@ button3 {
 
 button3:hover {
   background-color: purple; 
+  color: white;
+}
+
+button4 {
+  transition-duration: 0.4s;
+}
+
+button4:hover {
+  background-color: violet; 
   color: white;
 }
 
