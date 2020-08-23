@@ -46,7 +46,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   text-decoration: none;
 }
 
@@ -99,5 +99,17 @@ footer {
 position: fixed;
 left:0;
 bottom:0;
+height:50px;
 width: 100%;
+background-color: black;
+clear: both;
+font-size: 40px;
+}
+
+@media screen and (max-width:800px) {
+ #currentPost{ 
+   max-width:65%;
+   position: relative;
+   left: 0px;
+ } 
 }
