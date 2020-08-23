@@ -4,6 +4,7 @@ body{
  background-size: cover;
  height: 100%;
  background-color:black;
+ padding-top: 50px;
  padding-bottom: 60px;
 }
 
@@ -18,10 +19,9 @@ body {
 
 
 #currentPost{ 
-   max-width:65%;
-   position: absolute;
-   right: 75px;
-   top:10%;
+   max-width:80%;
+   position: relative;
+   left:10%;
 } 
 
 #lastestPost{
@@ -107,7 +107,7 @@ font-size: 30px;
 height:40px;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
  
   body{
    background:url("monkey.jpg");
