@@ -29,3 +29,15 @@ function get22Aug2020(){
 function get23Aug2020(){
  document.getElementById("currentPost").innerHTML="23 Agosto 2020 Necesito una nueva foto para el blog. La que uso no cabe bien en mi celular. Sin embargo, no he tenido mucho tiempo libre esos últimos días y me gusta la foto de Perú como el fondo. Tal vez encontraré más fotos de la selva peruana tan deslumbrantes. Desafortunadamente, me quedan muchos platos que lavar aunque lavé un montón de ellos ayer. No obstante, lo haré eventualmente porque no hay nadie en mi casa que limpia la cocina de una manera eficaz.";
 }
+
+function get24Aug2020(){
+ document.getElementById("currentPost").innerHTML="24 Agosto 2020 Pasé el día caminando por mi vecindario. Está nublado hoy, pero tengo calor. Mañana tendré un examen importante en la clase de cálculo. Será la última tarea y estoy muy emocionada. Después, podré disfrutar del resto del verano. Por cierto, compré un nombre en Google esta tarde para que cualquier persona pueda encontrar mi sitio web en una búsqueda. Por último, he cambiado de imagen para el fondo de una pantalla pequeña. Creo escoger un mono lindo.";
+}
+
+function get25Aug2020(){
+ document.getElementById("currentPost").innerHTML="25 Agosto 2020 Acabé de entregar mi examen de matemáticas. Fue el más fácil de todos los examens que he tomado este trimestre. Tuve que calcular el flujo y la circulación de unas líneas en un campo de vectores usando tres teoremas. No sé cuándo necesitaré esas técnicas; quizás durante la clase de física que voy a tomar muy pronto. Ahora tengo que montar en bicicleta a la tienda de comestibes porque nuestra sopa, la que cenaremos en tres horas, falta los fideos.";
+}
+
+function get26Aug2020(){
+ document.getElementById("currentPost").innerHTML="";
+}
