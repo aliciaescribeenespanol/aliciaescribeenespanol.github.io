@@ -39,5 +39,5 @@ function get25Aug2020(){
 }
 
 function get26Aug2020(){
- document.getElementById("currentPost").innerHTML="";
+ document.getElementById("currentPost").innerHTML="26 Agosto 2020 Tengo mucho tiempo libre. Entonces, empecé a leer un libro escrito por Sonia Sotomayor, la juez en la Corte Suprema de los Estados Unidos. Luego, voy a ir de compras para comprar queso para un plato italiano que vamos a hacer hoy. Aunque el supermercado está lejos, puede ser como entrenamiento para los deportes cuando sea posible practicarlos. Mi padre atrapó una rata anoche, pero se parece un ratón. Si tuviera una mascota, escogería un ratón porque son jugadores y inteligentes.";
 }
