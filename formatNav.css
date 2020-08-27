@@ -1,11 +1,10 @@
 body{
- background:url("peru.jpg");
- background-repeat: no-repeat;
- background-size:cover;
- height: 100%;
+ background:url("peru.jpg") no-repeat center center fixed;
+ background-size: 100% 100%;
  background-color:black;
  padding-top: 60px;
  padding-bottom: 60px;
+ padding-left:50px;
 }
 
 body {
@@ -110,14 +109,8 @@ height:40px;
 @media screen and (max-width:500px) {
  
   body{
-   background:url("monkey.jpg");
-   background-repeat: no-repeat;
+   background:url("monkey.jpg") no-repeat center center fixed;
    background-size: 100% 100%;
    background-color:black;
   }
-  #currentPost{ 
-   max-width:65%;
-   position: relative;
-   left: 0px;
- } 
 }
