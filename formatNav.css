@@ -16,6 +16,13 @@ body {
  font-weight: 300;
 }
 
+.center{
+ display: block;
+ width:30%;
+ height:30%;
+ margin-left: auto;
+ margin-right: auto;
+}
 
 #currentPost{ 
    max-width:80%;
@@ -27,6 +34,7 @@ body {
   position: absolute;
   left:5px;
 }
+
 ul {
   list-style-type: none;
   background-color: black;
