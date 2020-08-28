@@ -45,3 +45,9 @@ function get26Aug2020(){
 function get27Aug2020(){
  document.getElementById("currentPost").innerHTML="27 Agosto 2020 Cociné un montón de panqueques esta mañana porque no los he comido recientemente. Recibí mis calificaciones para el trimestre y por eso, me siento aliviada. En cuanto al blog, me gustaría probar unas maneras de pedir opiniones sobre mi escritura. Creo que un elemento vacío que un visitante puede cambiar sería la mejor manera de hacerlo para que el ordenador envie el texto a mi correo electrónico. Ojalá funcione.";
 }
+
+function get28Aug2020(){
+ document.getElementById("currentIm").src = "Imagenes/survey.jpg"; 
+ document.getElementById("currentPost").innerHTML="28 Agosto 2020 Ayer decidí usar Google Forms para implementar una manera de recibir comentarios porque es difícil hacerlo sin aprender PHP, un lenguage escencial para ahorrar los datos y enviarlos a mi correo electrónico. También creé un correo electrónico con el que se puede enviarme cosas como opción alternativa a Google Forms. Quiero empezar a poner imagenes en mi blog; puede ser interesante.";
+ 
+}
