@@ -24,6 +24,10 @@ body {
  margin-right: auto;
 }
 
+#currentIm{
+display: none;
+}
+
 #currentPost{ 
    max-width:80%;
    position: relative;
