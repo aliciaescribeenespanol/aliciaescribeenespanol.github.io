@@ -68,3 +68,13 @@ function get29Aug2020(){
 document.getElementById("currentIm").style.display = "none";
  document.getElementById("currentPost").innerHTML="29 Agosto 2020 Fui a la playa en una isla para hacer paddleboard. Ya hemos vuelto a casa y estoy muy cansada. Entonces, me voy a dormir.";
 }
+
+function get30Aug2020(){
+document.getElementById("currentIm").style.display = "none";
+ document.getElementById("currentPost").innerHTML="30 Agosto 2020 Hoy monté en bicicleta con una mochila a la casa de mi amiga para recoger unas frutas. Finalmente, he pensado en cosas escolares. Necesito un libro caro para la clase de gobierno, la cual no tomaría si no fuera un requisito de la escuela secundaria. Por lo menos, el libro de texto de ecuaciones diferenciales es gratis; pude encontrar una versión en línea. No tengo mucho tiempo libre ahora. Hay tantos platos que lavar porque cada persona come algo diferente y básicamente cinco comidas porque merendamos también. Me olvidé de barrer el piso, y por eso hay polvo en todas partes. Tendré que hacerlo mañana. Me gustaría pasar más tiempo respasando gramática avanzada antes del principio del año escolar. Solo tomaré la clase de español en la escuela secundaria, así que puedo dedicarme a aprender todo lo posible.";
+}
+
+function get31Aug2020(){
+document.getElementById("currentIm").style.display = "none";
+ document.getElementById("currentPost").innerHTML="31 Agosto 2020 ¡Es el último día de agosto! Barré el piso hoy. Hace frío. Creo que va a llover más tarde. Las nubes oscuras cubren todo el cielo en este momento, y huele a lluvia. Generalmente, puedo predecir la lluvia. Hay papel de baño en el techo de mis vecinos. Siento que tengan que quitarlo con una escalera y un rastrillo. Ellos tienen una hija de la misma edad que yo. ¡Ya empezó las tonterías de los jugadores del fútbol americano!";
+}
