@@ -60,7 +60,7 @@ document.getElementById("currentIm").style.display = "none";
 
 function get28Aug2020(){
 document.getElementById("currentIm").style.display = "block";
- document.getElementById("currentIm").src = "Imagenes/survey.JPG"; 
+ document.getElementById("currentIm").src = "../Imagenes/survey.JPG"; 
  document.getElementById("currentPost").innerHTML="28 Agosto 2020 Ayer decidí usar Google Forms para implementar una manera de recibir comentarios porque es difícil hacerlo sin aprender PHP, un lenguage esencial para guardar los datos y enviarlos a mi correo electrónico. También creé un correo electrónico con el que se puede enviarme cosas como opción alternativa a Google Forms. Quiero empezar a poner imagenes en mi blog; puede ser interesante.";
 }
 
