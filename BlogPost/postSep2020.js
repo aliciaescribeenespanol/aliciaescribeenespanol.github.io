@@ -15,6 +15,15 @@ document.getElementById("currentIm").style.display = "none";
 
 function get4Sep2020(){
 document.getElementById("currentIm").style.display = "none";
- document.getElementById("currentPost").innerHTML= "4 Septiembre 2020 Estoy escribiendo este post durante el día siguente porque volvimos a casa a la medianoche. <br><br> Llegamos a la universidad, la cual está al otro lado del estado a las cuatro de la tarde. Mi padre dijo que me llevaría a visitar a esa universidad si me interesa. Estaba muy lejos de mi barrio, pero vale la pena. Muchos edicificios hechos de ladrillo rodean la ciudad y la universidad me parece la más grande de todas las escuelas que he visitado en mi vida.";
+ document.getElementById("currentPost").innerHTML= "4 Septiembre 2020 Estoy escribiendo este post durante el día siguente porque volvimos a casa a la medianoche. <br><br> Llegamos a la universidad, la cual está al otro lado del estado a las cuatro de la tarde. Mi padre dijo que me llevaría a visitar a esa universidad si me interesa. Estaba muy lejos de mi barrio, pero vale la pena. Aunque se ubica entre los campos de trigo y hierba agostada, muchos edicificios elegantes hechos de ladrillo rodean la ciudad y la universidad me parece la más grande de todas las escuelas que he visitado en mi vida.";
 }
 
+function get5Sep2020(){
+document.getElementById("currentIm").style.display = "none";
+ document.getElementById("currentPost").innerHTML= "5 Septiembre 2020 Yo montaba en bicicleta por mi ciudad cuando noté un camino de grava que serpenteaba hacia un bosque. Decidí tomarlo y me di cuenta de que había una colina grande. Es difícil parar una bicicleta cuando está bajando una colina a toda velocidad. Por lo menos, no me caí; desafortunadamente, tuve que subir la colina de nuevo para llegar a mi destino.";
+}
+
+function get6Sep2020(){
+document.getElementById("currentIm").style.display = "none";
+ document.getElementById("currentPost").innerHTML= "6 Septiembre 2020 La escuela empezará esta semana. Ya sé mi horario porque pude escoger mis cursos en la primavera. Hace mucho sol hoy. No hay ninguna nube flotando en el cielo y he visto un montón de conejos. Por cierto, extraño a mis amigos. No los he visto hace cinco meses debido a la pandemia. Tal vez llevaré cinco más sin verlos si no hay una vacuna disponible.";
+}
