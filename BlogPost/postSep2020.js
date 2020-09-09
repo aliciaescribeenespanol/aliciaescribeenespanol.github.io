@@ -27,3 +27,18 @@ function get6Sep2020(){
 document.getElementById("currentIm").style.display = "none";
  document.getElementById("currentPost").innerHTML= "6 Septiembre 2020 La escuela empezará esta semana. Ya sé mi horario porque pude escoger mis cursos en la primavera. Hace mucho sol hoy. No hay ninguna nube flotando en el cielo y he visto un montón de conejos. Por cierto, extraño a mis amigos. No los he visto hace cinco meses debido a la pandemia. Tal vez llevaré cinco más sin verlos si no hay una vacuna disponible.";
 }
+
+function get7Sep2020(){
+document.getElementById("currentIm").style.display = "none";
+ document.getElementById("currentPost").innerHTML="7 Septiembre 2020 Estoy cansada y no sé por qué. Hace mucho sol; tengo que salir de casa más tarde para montar en bicicleta. Quizás escribiré un cuento o algo. ¿Sabes qué? Quiero comer pastel. Voy a hornear uno de vainilla con pedazos de chocolate ahora.";
+}
+
+function get8Sep2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="Hay humo cubriendo el cielo hoy. Supe que el humo vino del este del estado, donde hay incendios. Estudié el calentamiento global el año pasado y investigué los incendios de la Amazonia en la clase de español. Fue bastante interesante ver todas las perspectivas del problema, de los científicos a los políticos. Está soleado, y deseo salir de mi casa. Tal vez más tarde el medio ambiente aclarará.";
+}
+
+function get9Sep2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="Comenzó la clase de español AP esta mañana. Desafortunadamente, no recuerdo cómo hablar español. La verdad es que no conozco a nadie con quien puedo conversar. Aunque tengo amigos hispanohablantes, prefiero hablar con los que están estudiando el idioma en vez de alguna persona en mi clase de matemáticas. Por supuesto, el primer día del curso me aburrió porque seguimos con clases en línea. Como el humo de ayer ha desaparecido, saldré montando en bicicleta después de almorzar. Además, tengo un cuento que necesito subir al blog.";
+}
