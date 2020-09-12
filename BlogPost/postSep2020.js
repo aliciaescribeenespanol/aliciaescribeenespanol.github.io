@@ -35,10 +35,20 @@ document.getElementById("currentIm").style.display = "none";
 
 function get8Sep2020(){
 document.getElementById("currentIm").style.display="none";
- document.getElementById("currentPost").innerHTML="Hay humo cubriendo el cielo hoy. Supe que el humo vino del este del estado, donde hay incendios. Estudié el calentamiento global el año pasado y investigué los incendios de la Amazonia en la clase de español. Fue bastante interesante ver todas las perspectivas del problema, de los científicos a los políticos. Está soleado, y deseo salir de mi casa. Tal vez más tarde el medio ambiente aclarará.";
+ document.getElementById("currentPost").innerHTML="8 Septiembre 2020 Hay humo cubriendo el cielo hoy. Supe que el humo vino del este del estado, donde hay incendios. Estudié el calentamiento global el año pasado y investigué los incendios de la Amazonia en la clase de español. Fue bastante interesante ver todas las perspectivas del problema, de los científicos a los políticos. Está soleado, y deseo salir de mi casa. Tal vez más tarde el medio ambiente aclarará.";
 }
 
 function get9Sep2020(){
 document.getElementById("currentIm").style.display="none";
- document.getElementById("currentPost").innerHTML="Comenzó la clase de español AP esta mañana. Desafortunadamente, no recuerdo cómo hablar español. La verdad es que no conozco a nadie con quien puedo conversar. Aunque tengo amigos hispanohablantes, prefiero hablar con los que están estudiando el idioma en vez de alguna persona en mi clase de matemáticas. Por supuesto, el primer día del curso me aburrió porque seguimos con clases en línea. Como el humo de ayer ha desaparecido, saldré montando en bicicleta después de almorzar. Además, tengo un cuento que necesito subir al blog.";
+ document.getElementById("currentPost").innerHTML="9 Septiembre 2020 Comenzó la clase de español AP esta mañana. Desafortunadamente, no recuerdo cómo hablar español. La verdad es que no conozco a nadie con quien puedo conversar. Aunque tengo amigos hispanohablantes, prefiero hablar con los que están estudiando el idioma en vez de alguna persona en mi clase de matemáticas. Por supuesto, el primer día del curso me aburrió porque seguimos con clases en línea. Como el humo de ayer ha desaparecido, saldré montando en bicicleta después de almorzar. Además, tengo un cuento que necesito subir al blog.";
+}
+
+function get10Sep2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="10 Septiembre 2020 Intenté montar en bicicleta esta tarde y no pude como resultado de los incendios al este, aunque me pongo el cubreboca. Espero que se acaben los incendios y que la calidad del aire mejore pronto. ¡Quiero salir de casa!";
+}
+
+function get11Sep2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="11 Septiembre 2020 Me quedé en casa hoy porque hay demasiado humo afuera. He sobrevivido una semana de la escuela secundaria. No se puede juzgar a los maestros por sus clases en línea, así que no diré nada más con relación a la clase de español. No he leído algo en español hace una semana. Debo escoger un nuevo libro, pero no lo he hecho porque nuestro internet no funciona ahora. Por cierto, llené una solicitud para entrar en la universidad; me falta una más. Necesito que me acepten, y si me rechacen ... tendremos un problema.";
 }
