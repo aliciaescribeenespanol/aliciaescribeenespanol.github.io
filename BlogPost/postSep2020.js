@@ -50,5 +50,5 @@ document.getElementById("currentIm").style.display="none";
 
 function get11Sep2020(){
 document.getElementById("currentIm").style.display="none";
- document.getElementById("currentPost").innerHTML="11 Septiembre 2020 Me quedé en casa hoy porque hay demasiado humo afuera. He sobrevivido una semana de la escuela secundaria. No se puede juzgar a los maestros por sus clases en línea, así que no diré nada más con relación a la clase de español. No he leído algo en español hace una semana. Debo escoger un nuevo libro, pero no lo he hecho porque nuestro internet no funciona ahora. Por cierto, llené una solicitud para entrar en la universidad; me falta una más. Necesito que me acepten, y si me rechacen ... tendremos un problema.";
+ document.getElementById("currentPost").innerHTML="11 Septiembre 2020 Me quedé en casa hoy porque hay demasiado humo afuera. He sobrevivido una semana de la escuela secundaria. No se puede juzgar a los maestros por sus clases en línea, así que no diré nada más con relación a la clase de español. No he leído algo en español hace una semana. Debo escoger un nuevo libro, pero no lo he hecho porque nuestro internet no funciona ahora. Por cierto, llené una solicitud para entrar en la universidad; me falta una más. Necesito que me acepten, y si me rechazan ... tendremos un problema.";
 }
