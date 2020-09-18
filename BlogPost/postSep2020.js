@@ -52,3 +52,38 @@ function get11Sep2020(){
 document.getElementById("currentIm").style.display="none";
  document.getElementById("currentPost").innerHTML="11 Septiembre 2020 Me quedé en casa hoy porque hay demasiado humo afuera. He sobrevivido una semana de la escuela secundaria. No se puede juzgar a los maestros por sus clases en línea, así que no diré nada más con relación a la clase de español. No he leído algo en español hace una semana. Debo escoger un nuevo libro, pero no lo he hecho porque nuestro internet no funciona ahora. Por cierto, llené una solicitud para entrar en la universidad; me falta una más. Necesito que me acepten, y si me rechazan ... tendremos un problema.";
 }
+
+function get12Sep2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="12 Septiembre 2020 Hoy es sábado y no quiero hacer nada. No hay nada nuevo. Hay un aviso de mala calidad del aire, por eso me quedé en casa.";
+}
+
+function get13Sep2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="13 Septiembre 2020 Fui a sacar fotos para el último año de la preparatoria. No huele a humo hoy, pero está nublado. Luego, limpié el carro.";
+}
+
+function get14Sep2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="14 Septiembre 2020 Empecé a leer un cuento del siglo XIV escrito por Don Juan Manuel. Por supuesto, leí la versión escrita en castellano moderno. Creo que es se llama el cuento XXXV de Conde Lucanor. Las perspectivas que se presenta la lectura me interesan mucho. El cuento fue escrito antes de que tomaron el poder del gobierno los cristianos. Debido de eso, el texto se trata de las circunstancias entre hombre y mujer durante esta época medieval. Aunque no estoy completamente de acuerdo con punto de vista del autor, me fascina la estuctura del cuento. Se escribió como un metacuento y una fábula con moraleja al final, lo cual añadió un nivel de complejidad.";
+}
+
+function get15Sep2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="15 Septiembre 2020 Leí un poema de la época medieval y se trató de la Alhama y el imperialismo durante el siglo de oro en España. Fue escito bien y me fascinó mucho.";
+}
+
+function get16Sep2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="16 Septiembre 2020 Hoy es el segundo miércoles del año escolar. Necesito comprar un libro de texto para el curso de físcia. Cuesta mucho.";
+}
+
+function get17Sep2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="17 Septiembre 2020 Recibí mis fotos que saqué el domingo pasado. Me encanta el humo en el fondo. ¡Qué padre! Las flores y los árboles son bonitos también. De todos modos, estoy muy contenta.";
+}
+
+function get18Sep2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="18 Septiembre 2020 Sobreviví la semana. Mi clase de matemáticas empezará el lunes, así que voy a disfrutar del tiempo libre. Espera...necesito escribir un ensayo primero.";
+}
