@@ -87,3 +87,28 @@ function get18Sep2020(){
 document.getElementById("currentIm").style.display="none";
  document.getElementById("currentPost").innerHTML="18 Septiembre 2020 Sobreviví la semana. Mi clase de matemáticas empezará el lunes, así que voy a disfrutar del tiempo libre. Espera...necesito escribir un ensayo primero.";
 }
+
+function get19Sep2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="19 Septiembre 2020 Monté en bici y fue muy divertido. Descrubrí una nueva calle.";
+}
+
+function get20Sep2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="20 Septiembre 2020 Sé que debo estudiar, pero no voy a hacer nada.";
+}
+
+function get21Sep2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="21 Septiembre 2020 ¡Feliz lunes! Comenzó el curso de las ecuaciones diferenciales. Los temas de la semana no fueron nuevos porque ya los estudié durante el curso de çálculo. Entonces, hice las tareas de la clase de español y salí de casa para disfrutar del sol.";
+}
+
+function get22Sep2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="22 Septiembre 2020 Como terminé de hacer la tarea ayer, limpié la casa hoy. Hace buen tiempo, pero sé que lloverá mañana.";
+}
+
+function get23Sep2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="23 Septiembre 2020 Está lloviendo y oigo el trueno. No he visto ningún relápago. Por lo menos, conseguí la historia de Lazarillo de Tormes en papel. Al mal tiempo, buena cara. Necesito hacer las flexiones y dormir. Estoy escribiendo el post a las diez y media en vez de hacer ejecicio o algo importante. Todo bien.";
+}
