@@ -131,13 +131,14 @@ height:40px;
    background-size: 100% 100%;
    background-color:black;
    margin: 0 auto;
-   padding-top: 200px;
+   padding-top: 300px;
    padding-bottom: 50px;
    padding-left:10px;
-   font-size: 2.0em; 
+   padding-right: 10px;
+   font-size: 2.0em;
    line-height: 1.9em;
    font-family: 'Courier', monospace; 
-   color: white; 
+   color: white;
    font-weight: 350;
   }
 }

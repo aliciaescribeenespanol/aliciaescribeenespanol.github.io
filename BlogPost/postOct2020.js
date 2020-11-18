@@ -13,3 +13,8 @@ document.getElementById("currentIm").style.display = "none";
  document.getElementById("currentPost").innerHTML= "3 Octubre 2020 He sobrevivido la primera semana de las nuevas clases y quiero descansar. Sin embargo, limpiaré la estufa esta tarde. Si tengo tiempo, saldré para montar en bicicleta. Puede ser la última oportunidad de recorrer el barrio. Extrañaré este lugar.";
 }
 
+function get24Oct2020(){
+document.getElementById("currentIm").style.display="none";
+ document.getElementById("currentPost").innerHTML="";
+}
+
