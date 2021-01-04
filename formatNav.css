@@ -2,7 +2,7 @@ body{
  background:url("peru.jpg") no-repeat center center fixed;
  background-size: 100% 100%;
  background-color:black;
- padding-top: 80px;
+ padding-top: 50px;
  padding-bottom: 60px;
  padding-left:50px;
  margin: 0 auto; 
@@ -166,7 +166,7 @@ height:40px;
  color:purple;
 }
 
-}
+
 
 @media screen and (max-width:600px) {
   body{

@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html>
 <body>
-
 <head> 
   <link rel="stylesheet" type="text/css" href="formatNav.css">
-</head>
-<meta name="viewport" content="width=device-width"/>
-<!--#include file="head.htm" -->
+    
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.htm">&#x2302;</a>
+  <a href="BlogPosts.htm">Blog</a>
+  <a href="BlogCuentos.htm">Cuentos</a>
+  <a href="BlogOC.htm">Otras Cosas</a>
+</div>
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Alicia escribe</span>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
 
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+</head>
+
+<meta name="viewport" content="width=device-width"/>
 
 <hr>
 
