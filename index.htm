@@ -1,31 +1,22 @@
 <!DOCTYPE html>
 <html>
-<body>
-<head> 
-  <link rel="stylesheet" type="text/css" href="formatNav.css">
+	<body>
+		<head>
+			<link rel="stylesheet" type="text/css" href="formatNav.css">
     
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.htm">&#x2302;</a>
-  <a href="BlogPosts.htm">Blog</a>
-  <a href="BlogCuentos.htm">Cuentos</a>
-  <a href="BlogOC.htm">Otras Cosas</a>
-</div>
-<div id="main">
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Alicia escribe</span>
-</div>
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="index.htm">&#x2302;</a>
+				<a href="BlogPosts.htm">Blog</a>
+				<a href="BlogCuentos.htm">Cuentos</a>
+				<a href="BlogOC.htm">Otras Cosas</a>
+			</div>
+		<div id="main">
+		<!-- Create dropdown -->
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Alicia escribe</span>
+		</div>
 <script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-}
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-  document.body.style.backgroundColor = "white";
-}
 </script>
 </head>
 
@@ -37,6 +28,8 @@ function closeNav() {
 <br>
 <p>¡Hola! Soy Alicia y asisto a una escuela secundaria en los Estados Unidos. Me encanta aprender sobre la gente. Mi meta actual es aprender escribir y hablar español con fluidez para que el idioma no sea limitante. A pesar de ser joven, sueño con tener muchas aventuras en varias partes del mundo, conocer no solo a los individuos que me rodean sino también a los que viven de la otra orilla del océano. <br><br>Encontrarás un montón de escritura. Sé que mi escritura no es perfecta, así que puedes juzgarme como quieras. ¡Espero que descubras algo interestante!</p>
 
+
+<h style="background-color: blue;">ANUNCIO (28 marzo 2020) - Estoy aprendiendo PHP (Hypertext Preprocessor) ahora. Voy a cambiar de HTML a PHP para crear un sitio dinámico. Estoy muy emocionada y me estoy divertiendo mucho. ¡Podré hacer más cosas interesantes!</h>
 <br>
 <a id="comments" href="https://forms.gle/4QUhoh5aYCs6xxTX7" style="color: white;"> Comentarios </a>
 <br>
@@ -48,6 +41,20 @@ function closeNav() {
 	<script>document.write(new Date().getFullYear())</script>
         <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
  </footer>
+
+ <script>
+	function openNav() {
+	  document.getElementById("mySidenav").style.width = "250px";
+	  document.getElementById("main").style.marginLeft = "250px";
+	  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	}
+
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	  document.getElementById("main").style.marginLeft= "0";
+	  document.body.style.backgroundColor = "white";
+	}
+ </script>
 <script src="general.js"></script>
 </body>
 </html>
